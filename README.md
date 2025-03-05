@@ -1,3 +1,3 @@
 # Frontend-Development
 <br>
-@uthor: Nizam Uddin
+@uthor: Nizam Uddin (BSCS)
