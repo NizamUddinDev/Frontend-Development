@@ -2,4 +2,4 @@
 <br>
 @uthor: Nizam Uddin (BSCS)
 <br>
-I have recently done my graduation from SIBA
+I have recently done my graduation from SUKKUR IBA UNIVERSITY
