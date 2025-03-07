@@ -1,29 +1,48 @@
         .container{
             background-color: darkgray;
-            margin-right: 500px;
-            margin-left: 500px;
+            margin-right: 400px;
+            margin-left: 400px;
             padding: 10px;
-            text-align: center;
             border-color: black;
             border: 1px;
             border-style: solid;
         }
+        a{
+            color: rgb(0, 113, 133);
+        }
         .Add-button{
-            background-color: crimson;
-            color: white;
+            background-color: rgb(255, 216, 20);
+            color: black;
             border: none;
             height: 30px;
-            width: 90px;
-            border-radius: 2px;
+            width: 105px;
+            border-radius: 15px;
             cursor: pointer;
+            font-size: 15px;
+            font-weight: bold;
 
         }
         .Buy-button{
-            background-color: crimson;
-            color: white;
+            background-color: rgb(255, 164, 28);
+            color: black;
             border: none;
             height: 30px;
-            width: 90px;
-            border-radius: 2px;
+            width: 105px;
+            border-radius: 15px;
             cursor: pointer;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        .Nike-cntnr{
+            font-weight: bold;
+            font-size: 30px;
+        }
+        .price-class{
+            color: rgb(0, 118, 0);
+            font-weight: bold;
+            font-size: 20px;
+
+        }
+        .delivery-class{
+            font-size: 20px;
         }
