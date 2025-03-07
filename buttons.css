@@ -1,8 +1,21 @@
 .Request-button{
     background-color: black;
     color: white;
+    border: none;
     height: 36px;
     width: 105px;
+    cursor: pointer;
+    transition: background-color 0.5s ease, width 0.5s;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.8);
+    
+}
+.Request-button:hover{
+    background-color: blue;
+    width: 150px;
+    
+}
+.Request-button:active{
+    opacity: 0.7;
 }
 .Add-to-cart-btn{
     background-color: rgb(255, 216, 20);
@@ -11,6 +24,16 @@
     width: 150px;
     border: none;
     border-radius: 17px;
+    cursor: pointer;
+    transition: box-shadow 1s, opacity 0.5s;
+}
+.Add-to-cart-btn:hover{
+    height: 40px;
+    border-radius: 1px;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.6);
+}
+.Add-to-cart-btn:active{
+    opacity: 0.3;
 }
 .Sign-up-button{
     background-color: rgb(46, 164, 79);
@@ -19,6 +42,19 @@
     width: 105px;
     border: none;
     border-radius: 4px;
+    transition: color 1s, font-style 1s, box-shadow 0.15s;
+    cursor: pointer;
+}
+.Sign-up-button:active{
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 15px;
+    box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.4);
+}
+.Sign-up-button:hover{
+    border-radius: 19px;
+    width: 115px;
 }
 .Start-button{
     background-color: rgb(121, 82, 179);
@@ -28,6 +64,11 @@
     border: none;
     border-radius: 3px;
     font-weight: bold;
+    transition: height 0.15s, width 0.15s;
+    cursor: pointer;
+}
+.Start-button:active{
+    transform: rotate(90deg);
 }
 .Download-button{
     background-color: white;
