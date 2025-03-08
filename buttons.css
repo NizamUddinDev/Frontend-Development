@@ -79,6 +79,19 @@
     border-style: solid;
     border-radius: 3px;
     font-weight: bold;
+    cursor: pointer;
+    transition: box-shadow 0.1s, opacity 0.15s;
+}
+.Download-button:hover{
+    background-color:lightseagreen;
+    font-style: italic;
+    font-size: 15px;
+    box-shadow: 7px 8px 5px rgba(0, 0, 0, 0.5);
+
+}
+.Download-button:active{
+    opacity: 0.7;
+    transform: rotate(90deg);
 }
 .Apply-button{
     background-color: rgb(10, 102, 194);
@@ -90,6 +103,15 @@
     font-weight: bold;
     font-size: 15px;
 }
+.Apply-button:active{
+    background-color:darkslateblue;
+    color: rgb(195, 110, 7);
+}
+.Apply-button:hover{
+    border-style: double;
+    cursor: pointer;
+    box-shadow: -5px -4px 5px rgba(0, 0, 0, 0.7);
+}
 .Save-button{
     background-color: white;
     color: rgb(10, 102, 194);
@@ -100,4 +122,19 @@
     border-width: 1.5px;
     font-weight: bold;
     font-size: 20px;
+}
+.Save-button:hover{
+    background-color: aqua;
+    color: rgb(117, 139, 139);
+    cursor: pointer;
+}
+.Save-button:active{
+    height: 36px;
+    width: 90px;
+    border-radius: 18px;
+    border: none;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 15px;
+    opacity: 0.7;
 }
