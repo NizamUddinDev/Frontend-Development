@@ -1,0 +1,15 @@
+.price{
+    font-size: 15px;
+}
+.currency{
+    color: grey;
+}
+.inc-rate{
+    color:green;
+}
+.para .hours-rate{
+    color: grey;
+}
+.para .dec-rate{
+    color: red;
+}
