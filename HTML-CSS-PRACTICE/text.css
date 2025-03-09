@@ -34,3 +34,19 @@ p{
     color: aliceblue;
     box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.5);
 }
+#shopping-para{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;   
+}
+.apple{
+    font-size: 12px;
+    margin-left: 15px;
+}
+.more-details{
+    color:rgb(30, 162, 206);
+    margin-left: 45px;
+    margin-top: 10px;
+}
