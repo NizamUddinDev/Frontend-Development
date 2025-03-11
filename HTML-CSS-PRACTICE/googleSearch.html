@@ -1,30 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GoogleSearch.com</title>
     <style>
-        img{
-            display: block;
-            margin-top: 100px;
-            margin-left: 400px;
-            margin-right: 400px;
-        }
-        .google-search-bar{
-            background-color: rgb(250, 246, 246);
-            display: block;
-            width: 500px;
-            padding: 10px;
-            border: none;
-            border-radius: 20px;
-            box-shadow: 0.3px 0.3px 0.3px rgba(0, 0, 0, 0.4);
-           margin-left: 320px;       
-        }
+      .img-container {
+        text-align: center;
+      }
+      .google-search-container {
+        text-align: center;
+      }
+      .google-search-bar {
+        background-color: rgb(250, 246, 246);
+        width: 500px;
+        padding: 12px;
+        border: none;
+        border-radius: 20px;
+        box-shadow: 0.3px 0.3px 0.3px rgba(0, 0, 0, 0.4);
+      }
+      .button-container{
+        text-align: center;
+        margin-top: 30px;
+      }
+      .button-container .btn-box{
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border: none;
+      }
     </style>
-</head>
-<body>
-    <img src="googleLogo.jpeg" alt="gooleLogo">
-    <input class="google-search-bar" type="text" placeholder="Search Google or type URL">
-</body>
+  </head>
+  <body>
+    <div class="img-container">
+      <img src="googleLogo.jpeg" alt="gooleLogo" />
+    </div>
+    <div class="google-search-container">
+      <input
+        class="google-search-bar"
+        type="text"
+        placeholder="Search Google or type URL"
+      />
+    </div>
+    <div class="button-container">
+      <button class="btn-box">Google Search</button>
+      <button class="btn-box">I`m Feeling Lucky</button>
+    </div>
+  </body>
 </html>
