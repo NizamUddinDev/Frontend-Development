@@ -1,64 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facebook Friend`s add option</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook Freinds add list</title>
     <style>
-        .cat-container{
-            display: inline-block;
-            width: 121px;
-            height: 173px;
-            background-color: whitesmoke;
-            margin-right: 5px;
-            
-        }
-        img{
-            width: 120px;
-            height: 100px;
-            margin-bottom: 0px;
-        }
-        p{
-            margin-top: 2px;
-            margin-bottom: 0px;
-            font-weight: bold;
-        }
-        .mutual-friends{
-            color: grey;
-            font-weight: normal;
-            font-size: 12px;
-            margin-top: 0px;
-        }
-        button{
-            background-color: dodgerblue;
-            padding-top: 7px;
-            padding-bottom: 7px;
-            padding-left: 10px;
-            padding-right: 10px;
-            border: none;
-            border-radius: 3px;
-            margin-top: 6px;
-        }
+      .main-container {
+        display: inline-block;
+        margin-right: 5px;
+        width: 130px;
+        height: 230px;
+        background-color: whitesmoke;
+      }
+      .profile-photo {
+        width: 130px;
+        height: 140px;
+      }
+      .profile-img {
+        width: 130px;
+        height: 140px;
+        object-fit: cover;
+        margin-bottom: 0px;
+      }
+      .profile-name {
+        display: inline-block;
+        margin-top: -8px;
+        margin-bottom: 0px;
+        font-weight: bold;
+        padding-left: 4px;
+      }
+      .mutualFriends-box {
+        margin-top: -27px;
+      }
+      .mutualFreind-profile {
+        display: inline-block;
+        padding-left: 4px;
+      }
+      .mutualprofile-img {
+        width: 20px;
+        height: 20px;
+        object-fit: cover;
+        border-radius: 10px;
+        vertical-align: middle;
+      }
+      .mutual-friends {
+        display: inline-block;
+        vertical-align: middle;
+        color: grey;
+        font-size: 14px;
+      }
+      .addFriend-btn {
+        padding-left: 4px;
+      }
+      .add-btn {
+        background-color: dodgerblue;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: none;
+        border-radius: 3px;
+        margin-top: -4px;
+      }
     </style>
-</head>
-<body>
-    <div class="cat-container">
-        <img src="images\images.jpeg" alt="cat">
-        <p>Oliver</p>
-        <p class="mutual-friends">2 mutual friends</p>
-        <button>Add Friend</button>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="profile-photo">
+        <img class="profile-img" src="images\images.jpeg" alt="cat" />
+      </div>
+      <div class="profile-details">
+        <div class="profile-name">
+          <p>Oliver</p>
+        </div>
+        <div class="mutualFriends-box">
+          <div class="mutualFreind-profile">
+            <img class="mutualprofile-img" src="images\images.jpeg" alt="cat" />
+          </div>
+          <div class="mutual-friends">
+            <p>2 mutual friends</p>
+          </div>
+        </div>
+        <div class="addFriend-btn">
+          <button class="add-btn">Add Friend</button>
+        </div>
+      </div>
     </div>
-    <div class="cat-container">
-        <img src="images\cleverCat.jpeg" alt="cat">
-        <p>Mimi</p>
-        <p class="mutual-friends">3 mutual friends</p>
-        <button>Add Friend</button>
-    </div>
-    <div class="cat-container">
-        <img src="images\innocent.jpeg" alt="cat">
-        <p>Rex</p>
-        <p class="mutual-friends">4 mutual friends</p>
-        <button>Add Friend</button>
-    </div>
-</body>
+
+    <div class="main-container">
+        <div class="profile-photo">
+          <img class="profile-img" src="images\cleverCat.jpeg" alt="cat" />
+        </div>
+        <div class="profile-details">
+          <div class="profile-name">
+            <p>Mimi</p>
+          </div>
+          <div class="mutualFriends-box">
+            <div class="mutualFreind-profile">
+              <img class="mutualprofile-img" src="images\cleverCat.jpeg" alt="cat" />
+            </div>
+            <div class="mutual-friends">
+              <p>3 mutual friends</p>
+            </div>
+          </div>
+          <div class="addFriend-btn">
+            <button class="add-btn">Add Friend</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-container">
+        <div class="profile-photo">
+          <img class="profile-img" src="images\innocent.jpeg" alt="cat" />
+        </div>
+        <div class="profile-details">
+          <div class="profile-name">
+            <p>Rex</p>
+          </div>
+          <div class="mutualFriends-box">
+            <div class="mutualFreind-profile">
+              <img class="mutualprofile-img" src="images\innocent.jpeg" alt="cat" />
+            </div>
+            <div class="mutual-friends">
+              <p>4 mutual friends</p>
+            </div>
+          </div>
+          <div class="addFriend-btn">
+            <button class="add-btn">Add Friend</button>
+          </div>
+        </div>
+      </div>
+  </body>
 </html>
